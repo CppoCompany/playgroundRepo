@@ -1,0 +1,7 @@
+<!-- <org-nx-welcome></org-nx-welcome> <router-outlet></router-outlet> -->
+<org-banner title="Welcome to the store!"> </org-banner>
+<ul>
+  <li *ngFor="let product of products">
+    <strong>{{ product.name }}</strong> Price: {{ product.price }}
+  </li>
+</ul>
